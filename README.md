@@ -100,9 +100,7 @@ The radius of curvature for the above image comes out to be `888.142m`.
 
 The final video of the pipeline implementation can be accessed [here](https://youtu.be/pC7CRrP74iQ). To smoothen out the output, the weigths for the polynomial fit are updated as weight of previously detected lines. For implemetation details check `./utils/line.py`.
 
-The video of the final output can be accessed by clicking the following image link:
-[![Sample Video](http://img.youtube.com/vi/pC7CRrP74iQ/0.jpg)](http://www.youtube.com/watch?v=pC7CRrP74iQ)
-
+The video of the final output - project_video_output.mp4 video file is attached.
 
 # Discussion
 ---
