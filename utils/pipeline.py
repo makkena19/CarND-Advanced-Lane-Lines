@@ -38,7 +38,7 @@ class Pipeline:
         minpix = 50
         
         if not line.first_frame_processed:
-            histogram = np.sum(binary_warped[binary_warped.shape[0]/2:,:], axis=0)
+            histogram = np.sum(binary_warped[binary_warped.shape[0]//2:,:], axis=0)
 
             midpoint = np.int(histogram.shape[0]/2)
             leftx_base = np.argmax(histogram[:midpoint])

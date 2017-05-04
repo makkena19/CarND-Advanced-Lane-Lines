@@ -3,7 +3,7 @@ import numpy as np
 class Line:
     def __init__(self):
         # if the first frame of video has been processed
-        self.first_frame_processed = False  
+        self.first_frame_processed = None  
         
         self.img = None
         
